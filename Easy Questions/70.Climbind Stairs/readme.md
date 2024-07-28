@@ -25,11 +25,11 @@ def climbstairs(n):
 n = 4
 print(climbstairs(n))  # Output: 5
 ```
-**Time Complexity**
+## Time Complexity
 The time complexity is O(n), where n is the number of steps. This is because the function iterates from 3 to n to calculate the number of ways to climb each step.
-**Space Complexity**
+## Space Complexity
 The space complexity is O(n) because the function uses a list steps to store the number of ways to climb each step up to n.
-**Explanation**
+## Explanation
 Dynamic Programming: The function uses a dynamic programming approach to calculate the number of ways to climb n steps. By storing the results of previous calculations, it efficiently computes the result for larger values of n.
 Base Cases: The initial values in the steps list ([1, 2, 3]) represent the number of ways to climb 1, 2, and 3 steps, respectively.
 Iteration: For values of n greater than 3, the function iterates and calculates the number of ways to climb each step using the results of the previous two steps.
